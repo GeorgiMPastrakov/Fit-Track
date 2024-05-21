@@ -25,4 +25,22 @@ function calculateBMI() {
   document.getElementById(
     "result"
   ).innerHTML = `Your BMI is ${bmiRounded}. You are currently in the ${interpretation} category.`;
+  const bmiChart = document.getElementById("bmiChart");
+  const chartData = {
+    labels: ["Your BMI"],
+    datasets: [
+      {
+        label: "BMI",
+        data: [bmiRounded],
+        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        borderColor: "rgba(255, 99, 132, 1)",
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  const bmiChartObject = new Chart(bmiChart, {
+    type: "bar",
+    data: chartData,
+  });
 }
