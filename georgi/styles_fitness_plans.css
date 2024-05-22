@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.plan-selection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.plan-selection button {
+  padding: 1rem 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.workout-plan {
+  display: none;
+}
+
+.workout-plan h2 {
+  margin-bottom: 1rem;
+}
+.plan-details {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.plan-details h3 {
+  margin-bottom: 1rem;
+}
+
+.plan-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.plan-details li {
+  margin-bottom: 0.5rem;
+}
