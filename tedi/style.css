@@ -49,3 +49,14 @@ span {
 h2 :hover {
   color: #f1f1f1;
 }
+#moto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#moto p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
