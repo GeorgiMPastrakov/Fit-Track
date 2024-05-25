@@ -3,50 +3,66 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"></link>
+    <title>About us</title>
+    <link rel="stylesheet" href="about_us.css" />
     <link rel="icon" type="image/x-icon" href="/android-chrome-512x512.png" />
   </head>
   <body>
-    <h2>FitTRACK</h2>
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        &times;</a
       >
-      <a href="index.html">Home page</a>
+      <a href="/tedi/index.html">Home page</a>
       <a href="/georgi/BMI_calc.html">BMI calculator</a>
       <a href="/martin/quiz.html">Quiz</a>
       <a href="/martin/recipes.html">Recipes</a>
       <a href="/georgi/fitness_plans.html">Fitness plans</a>
-      <a href="./about_us.html">About us</a>
+      <a href="/tedi/about_us.html">About us</a>
     </div>
-    </div>
-    <div id="about us">
-        <h1>About us</h1>
-        <p>
-           We are a group of students from the School of Technology Electronic Systems. Our names are Teodora, Martin and Georgi. We are 8th grade and we made this site for our project for the end of the year. Our goal is to encourage people to start working out and make their fitness experience easier. With the help of our site you can easily track your fitness progress so you can get in shape. Through the power of modern technology which we are learning at school, we made this functional site which we can maybe develop in the future.
-        </p>
-    </div>
-    <div id="contacts">
-        <h1>Contact us</h1>
-        <p>
-            If you have any questions or suggestions, feel free to contact us.
-        </p>
-        <p>
-            <a href="mailto:  ">Email:  </a>
-        </p>
-        <p>
-            <a href="https://www.facebook.com/">Facebook:  </a>
-        </p>
-        <p>
-            <a href="https://www.instagram.com/">Instagram:  </a>
-        </p>
-        <p>
-          Phone: +359 88 112 0000
-        </p>
-    </div>
-    
 
-    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
-      >&#9776;</span>
+    <header>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+      <h1>About Us</h1>
+      <p>Learn more about our team and mission.</p>
+    </header>
+
+    <section class="about-section">
+      <p>
+        We are a group of students from the School of Technology Electronic
+        Systems. Our names are Teodora, Martin and Georgi. We are 8th grade and
+        we made this site for our project for the end of the year. Our goal is
+        to encourage people to start working out and make their fitness
+        experience easier. With the help of our site you can easily track your
+        fitness progress so you can get in shape. Through the power of modern
+        technology which we are learning at school, we made this functional site
+        which we can maybe develop in the future.
+      </p>
+    </section>
+
+    <section class="team-section">
+      <h1>Contact us</h1>
+      <p>If you have any questions or suggestions, feel free to contact us.</p>
+      <div class="team-cards">
+        <div class="team-card">
+          <h3>Tedi</h3>
+          <a href="https://www.instagram.com/t_petkova456/">Instagram</a>
+          <a href="mailto: teodora.h.petkova.2023@elsys-bg.org">Email</a>
+        </div>
+        <div class="team-card">
+          <h3>Martin</h3>
+          <a href="https://www.instagram.com/m_mrchvvv/">Instagram</a>
+          <a href="mailto: martin.m.mirchev.2023@elsys-bg.org">Email</a>
+        </div>
+        <div class="team-card">
+          <h3>Georgi</h3>
+          <a href="https://www.instagram.com/georgi_.pastrakov/">Instagram</a>
+          <a href="mailto: georgi.m.pastrakov.2023@elsys-bg.org">Email</a>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
