@@ -10,6 +10,16 @@ body
     align-items: center;
 }
 
+main 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem; 
+}
+
+
 header 
 {
     background-color: #55aa75;
@@ -44,7 +54,7 @@ h1
 
 .day h3, .day h4 
 {
-    color: #4caf50;
+    color: #55aa75;
 }
 
 ul 
@@ -61,6 +71,18 @@ p, label
     font-size: 1.25rem;
 }
 
+header span 
+{
+   position: absolute;
+   top: 20px;
+   left: 20px;  
+}
+
+span 
+{
+   margin-left: -6px;
+}
+
 .sidenav 
 {
    height: 100%;
@@ -69,13 +91,13 @@ p, label
    z-index: 1;
    top: 0;
    left: 0;
-   background-color: #111;
+   background-color: #333;
    overflow-x: hidden;
    transition: 0.5s;
    padding-top: 60px;
-}   
-   
-.sidenav a 
+}
+  
+.sidenav a
 {
    padding: 8px 8px 8px 32px;
    text-decoration: none;
@@ -87,15 +109,17 @@ p, label
   
 .sidenav a:hover 
 {
-   color: #f1f1f1;
+    color: #f1f1f1;
 }
   
-.sidenav .closebtn 
+.sidenav .closebtn
 {
    position: absolute;
    top: 0;
    right: 25px;
    font-size: 36px;
-   margin-left: 50px;  
+   margin-left: 50px;
 }
 
+
+  
