@@ -15,6 +15,13 @@ header {
   padding: 2rem;
   text-align: center;
   width: 100%;
+  position: relative;
+}
+
+header span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 h1 {
@@ -22,17 +29,41 @@ h1 {
   font-size: 2.5rem;
 }
 
-.bmi-info {
-  width: 90%;
-  max-width: 800px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  padding: 2rem;
-  margin-top: -3rem;
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.bmi-info,
 .container {
   width: 90%;
   max-width: 800px;
@@ -40,8 +71,14 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  padding: 2.5rem;
-  margin-top: 1rem;
+  padding: 2rem;
+  padding-right: 2.7rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 label {
@@ -58,6 +95,10 @@ button {
   border-radius: 5px;
   width: 100%;
   font-size: 1.2em;
+}
+
+span {
+  margin-left: 26px;
 }
 
 button {
