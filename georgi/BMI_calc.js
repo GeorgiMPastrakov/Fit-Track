@@ -32,7 +32,7 @@ function calculateBMI() {
       {
         label: "BMI",
         data: [bmiRounded],
-        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        backgroundColor: "rgba(95, 194, 138, 0.2)",
         borderColor: "rgba(255, 99, 132, 1)",
         borderWidth: 1,
       },
