@@ -9,9 +9,24 @@
   </head>
   <body>
     <header>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
       <h1>Get Fit: Your Personalized Fitness Plan</h1>
       <p>This page is your one-stop shop for conquering your fitness goals!</p>
     </header>
+
+    <nav id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="/tedi/index.html">Home page</a>
+      <a href="/georgi/BMI_calc.html">BMI calculator</a>
+      <a href="/martin/quiz.html">Quiz</a>
+      <a href="/martin/recipes.html">Recipes</a>
+      <a href="/georgi/fitness_plans.html">Fitness plans</a>
+      <a href="./about_us.html">About us</a>
+    </nav>
 
     <main>
       <section class="plan-selection">
@@ -27,5 +42,6 @@
     </main>
 
     <script src="styles_fitness_plans.js"></script>
+    <script src="/tedi/script.js"></script>
   </body>
 </html>
