@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitTRACK</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="/android-chrome-512x512.png" />
   </head>
   <body>
-    <h2>FitTRACK</h2>
-    <div id="mySidenav" class="sidenav">
+    <header>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+      <h1>FitTRACK</h1>
+      <p>
+        Welcome to FitTrack, your personal fitness companion. Start tracking
+        your fitness journey with us today!
+      </p>
+    </header>
+
+    <nav id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
         >&times;</a
       >
@@ -18,31 +29,31 @@
       <a href="/martin/recipes.html">Recipes</a>
       <a href="/georgi/fitness_plans.html">Fitness plans</a>
       <a href="./about_us.html">About us</a>
-    </div>
+    </nav>
 
-    <div id="moto">
-      <h2>Welcome to FitTrack</h2>
-      <p>
-        Welcome to FitTrack, your personal fitness companion. Start tracking
-        your fitness journey with us today! 
-        If you are wondering how to start your fitness journey, FitTrack is your answer!
-      </p>
-    </div>
-    <div id="fuctions">
-      <h2>What can we do for you?</h2>
-      <ul>
-        <li>Calculate your BMI.</li>
-        <li>QUIZ??</li>
-        <li>Get ideas for different kind of recipes.</li>
-        <li>Don't stress over making your own fitness plan. We have already personalized it for you! </li>
-      </ul>
-    </div>
-     
-  
-    
-    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
-      >&#9776;</span>
-    
+    <main>
+      <section id="moto">
+        <h2>Welcome to FitTrack</h2>
+        <p>
+          If you are wondering how to start your fitness journey, FitTrack is
+          your answer!
+        </p>
+      </section>
+
+      <section id="functions">
+        <h2>What can we do for you?</h2>
+        <ul>
+          <li>Calculate your BMI.</li>
+          <li>See how healthy lifestyle is with our quiz.</li>
+          <li>Get ideas for different kinds of recipes.</li>
+          <li>
+            Don't stress over making your own fitness plan. We have already
+            personalized it for you!
+          </li>
+        </ul>
+      </section>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
