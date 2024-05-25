@@ -95,3 +95,46 @@ p {
   margin: 1rem 0 2rem;
   font-size: 1.25rem;
 }
+.team-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: initial;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.team-card {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.team h3 {
+  margin-bottom: 0.5rem;
+  color: #55aa75;
+}
+
+.team a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #55aa75;
+  text-decoration: none;
+}
+
+.team-card:hover a {
+  text-decoration: underline;
+}
+a {
+  margin: 7px;
+}
